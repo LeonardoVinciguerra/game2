@@ -7,7 +7,7 @@
 extern char im[40];
 Player::Player()
 {
-    setPixmap(QPixmap(":/images/cat.png"));
+    setPixmap(QPixmap(":/images/img2.png"));
 }
 
 void Player::keyPressEvent(QKeyEvent *event){
@@ -27,7 +27,7 @@ void Player::keyPressEvent(QKeyEvent *event){
     }
     else if (event->key() == Qt::Key_U){
         // create a bullet
-        strcpy(im,":/images/Nik_3.png");
+        strcpy(im,":/images/img3.png");
     }
 }
 
