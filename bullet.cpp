@@ -8,7 +8,7 @@ extern Game * game; //external global object
 
 Bullet::Bullet(QGraphicsItem*parent):QObject(),QGraphicsPixmapItem(parent){
     // drew the rect
-    setPixmap(QPixmap(":/images/ciambella1.png"));
+    setPixmap(QPixmap(":/images/img1.png"));
 
     // connect
     QTimer * timer = new QTimer(this);
